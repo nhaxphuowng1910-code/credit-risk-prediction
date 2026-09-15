@@ -204,9 +204,9 @@ st.markdown("""
 # ── NẠP MÔ HÌNH ──────────────────────────────────────────────
 @st.cache_resource
 def load_model():
-    model         = joblib.load('best_model.pkl')
-    scaler        = joblib.load('scaler.pkl')
-    feature_names = joblib.load('feature_names.pkl')
+    model         = joblib.load('models/best_model.pkl')
+    scaler        = joblib.load('models/scaler.pkl')
+    feature_names = joblib.load('models/feature_names.pkl')
     return model, scaler, feature_names
  
 try:
