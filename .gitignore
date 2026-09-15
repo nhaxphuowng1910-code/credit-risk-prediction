@@ -1,0 +1,24 @@
+# Bytecode và cache của Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# File tạm sinh ra khi chạy Jupyter Notebook
+.ipynb_checkpoints/
+
+# Môi trường ảo (Virtual Environments)
+venv/
+env/
+ENV/
+.env
+
+# Các file văn bản cá nhân, tài liệu Word/PDF làm bài tập
+*.docx
+*.doc
+*.pdf
+
+# File hệ thống của Windows / Mac
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
